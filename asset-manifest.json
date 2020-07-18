@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/freecodecamp__survey-form/static/js/main.c67a1312.chunk.js",
-    "main.js.map": "/freecodecamp__survey-form/static/js/main.c67a1312.chunk.js.map",
+    "main.js": "/freecodecamp__survey-form/static/js/main.20a20dc0.chunk.js",
+    "main.js.map": "/freecodecamp__survey-form/static/js/main.20a20dc0.chunk.js.map",
     "runtime-main.js": "/freecodecamp__survey-form/static/js/runtime-main.9c544305.js",
     "runtime-main.js.map": "/freecodecamp__survey-form/static/js/runtime-main.9c544305.js.map",
     "static/js/2.73c79e3e.chunk.js": "/freecodecamp__survey-form/static/js/2.73c79e3e.chunk.js",
     "static/js/2.73c79e3e.chunk.js.map": "/freecodecamp__survey-form/static/js/2.73c79e3e.chunk.js.map",
     "index.html": "/freecodecamp__survey-form/index.html",
-    "precache-manifest.83e8b00924f23e09a54e201549130a4a.js": "/freecodecamp__survey-form/precache-manifest.83e8b00924f23e09a54e201549130a4a.js",
+    "precache-manifest.13b4f7493ee075a217fadc52650d1460.js": "/freecodecamp__survey-form/precache-manifest.13b4f7493ee075a217fadc52650d1460.js",
     "service-worker.js": "/freecodecamp__survey-form/service-worker.js",
     "static/js/2.73c79e3e.chunk.js.LICENSE.txt": "/freecodecamp__survey-form/static/js/2.73c79e3e.chunk.js.LICENSE.txt",
     "static/media/homeBg.jpg": "/freecodecamp__survey-form/static/media/homeBg.a48f1005.jpg"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.9c544305.js",
     "static/js/2.73c79e3e.chunk.js",
-    "static/js/main.c67a1312.chunk.js"
+    "static/js/main.20a20dc0.chunk.js"
   ]
 }

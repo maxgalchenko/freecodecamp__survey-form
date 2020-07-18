@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/freecodecamp__survey-form/precache-manifest.83e8b00924f23e09a54e201549130a4a.js"
+  "/freecodecamp__survey-form/precache-manifest.13b4f7493ee075a217fadc52650d1460.js"
 );
 
 self.addEventListener('message', (event) => {
