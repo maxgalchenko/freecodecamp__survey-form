@@ -1,13 +1,17 @@
 import React from 'react';
+import styled from '@emotion/styled';
 // Components
 import Form from './components/Form';
 import Hero from './components/Hero';
+import MainLayout from './components/layouts/MainLayout';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Hero />
-      <Form />
+    <div>
+      <MainLayout>
+        <Hero />
+        <Form />
+      </MainLayout>
     </div>
   );
 };

@@ -1,40 +1,31 @@
 import React from 'react';
-// MUI
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-import MainLayout from '../layouts/MainLayout';
-
-const useStyles = makeStyles({
-  wrap: {
-    padding: '40px 5% 20px 5%',
-  },
-  title: {
-    fontWeight: 700,
-    fontSize: 30,
-    marginBottom: 10,
-  },
-  descr: {
-    fontStyle: 'italic',
-    fontWeight: 300,
-    textShadow: '1px 1px 1px rgba(0, 0, 0, 0.4)',
-    fontSize: 20,
-  },
-});
+import styled from '@emotion/styled';
 
 const Hero = () => {
-  const classes = useStyles();
   return (
-    <MainLayout>
-      <div className={classes.wrap}>
-        <Typography variant='h1' className={classes.title} align='center'>
-          freeCodeCamp Survey Form
-        </Typography>
-        <Typography variant='body1' className={classes.descr} align='center'>
-          Thank you for taking the time to check my form
-        </Typography>
-      </div>
-    </MainLayout>
+    <HeroStyled>
+      <h1>freeCodeCamp Survey Form</h1>
+      <p>Thank you for taking the time to check my form</p>
+    </HeroStyled>
   );
 };
+
+const HeroStyled = styled.section`
+  padding: 40px 5% 20px 5%;
+  text-align: center;
+
+  h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-style: italic;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+  }
+`;
 
 export default Hero;

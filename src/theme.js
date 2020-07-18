@@ -1,15 +1,13 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import React from 'react';
+import { ThemeProvider } from 'emotion-theming';
 
-const theme = createMuiTheme({
-  status: {
-    danger: 'orange',
-  },
-  spreadIt: {
-    test: {
-      color: 'red',
-      fontSize: 5,
-    },
-  },
-});
+const theme = {
+  mediaTablet: '@media(min-width: 768px)',
+  mediaDesktop: '@media(min-width: 1280px)',
+};
 
-export default theme;
+const Theme = ({ children }) => (
+  <ThemeProvider theme={theme}>{children}</ThemeProvider>
+);
+
+export default Theme;
