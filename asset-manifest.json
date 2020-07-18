@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/Rainspistols/freecodecamp__survey-form/static/js/main.c67a1312.chunk.js",
+    "main.js.map": "/Rainspistols/freecodecamp__survey-form/static/js/main.c67a1312.chunk.js.map",
+    "runtime-main.js": "/Rainspistols/freecodecamp__survey-form/static/js/runtime-main.87065e35.js",
+    "runtime-main.js.map": "/Rainspistols/freecodecamp__survey-form/static/js/runtime-main.87065e35.js.map",
+    "static/js/2.73c79e3e.chunk.js": "/Rainspistols/freecodecamp__survey-form/static/js/2.73c79e3e.chunk.js",
+    "static/js/2.73c79e3e.chunk.js.map": "/Rainspistols/freecodecamp__survey-form/static/js/2.73c79e3e.chunk.js.map",
+    "index.html": "/Rainspistols/freecodecamp__survey-form/index.html",
+    "precache-manifest.f4cc87b52bd0fd243c77af5beb6290c6.js": "/Rainspistols/freecodecamp__survey-form/precache-manifest.f4cc87b52bd0fd243c77af5beb6290c6.js",
+    "service-worker.js": "/Rainspistols/freecodecamp__survey-form/service-worker.js",
+    "static/js/2.73c79e3e.chunk.js.LICENSE.txt": "/Rainspistols/freecodecamp__survey-form/static/js/2.73c79e3e.chunk.js.LICENSE.txt",
+    "static/media/homeBg.jpg": "/Rainspistols/freecodecamp__survey-form/static/media/homeBg.a48f1005.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87065e35.js",
+    "static/js/2.73c79e3e.chunk.js",
+    "static/js/main.c67a1312.chunk.js"
+  ]
+}
