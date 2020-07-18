@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from '@emotion/styled';
 // Components
 import Form from './components/Form';
 import Hero from './components/Hero';
